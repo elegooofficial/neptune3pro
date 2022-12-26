@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "ratio": "cpp",
+        "random": "cpp",
+        "memory": "cpp"
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/buildroot/share/cmake"
+}

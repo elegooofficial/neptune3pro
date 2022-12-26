@@ -1,0 +1,116 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "d:/work/2_Elegoo/8_NETUNE3/Marlin-2.1.1/Marlin-2.1.1_TJC_029/Marlin",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/Wire/src",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/Servo/src",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/SoftwareSerial/src",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/EEPROM/src",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/SPI/src",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/IWatchdog/src",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/avr",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/stm32",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/stm32/LL",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/stm32/usb",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/stm32/OpenAMP",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/stm32/usb/hid",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/stm32/usb/cdc",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Drivers/STM32F4xx_HAL_Driver/Src",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/STM32F4xx",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Middlewares/OpenAMP",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Middlewares/OpenAMP/open-amp/lib/include",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Middlewares/OpenAMP/libmetal/lib/include",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Middlewares/OpenAMP/virtual_driver",
+                "C:/Users/Martin/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Core/Include",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc",
+                "C:/Users/Martin/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/DSP/Include",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/variants/MARLIN_MKS_E3",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/CMSIS_DSP/src",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/Keyboard/src",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/Mouse/src",
+                "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/SrcWrapper/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "d:/work/2_Elegoo/8_NETUNE3/Marlin-2.1.1/Marlin-2.1.1_TJC_029/Marlin",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/Wire/src",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/Servo/src",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/SoftwareSerial/src",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/EEPROM/src",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/SPI/src",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/IWatchdog/src",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/avr",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/stm32",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/stm32/LL",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/stm32/usb",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/stm32/OpenAMP",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/stm32/usb/hid",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino/stm32/usb/cdc",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Drivers/STM32F4xx_HAL_Driver/Inc",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Drivers/STM32F4xx_HAL_Driver/Src",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/STM32F4xx",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Middlewares/OpenAMP",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Middlewares/OpenAMP/open-amp/lib/include",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Middlewares/OpenAMP/libmetal/lib/include",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Middlewares/OpenAMP/virtual_driver",
+                    "C:/Users/Martin/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Core/Include",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/system/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc",
+                    "C:/Users/Martin/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/DSP/Include",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/cores/arduino",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/variants/MARLIN_MKS_E3",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/CMSIS_DSP/src",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/Keyboard/src",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/Mouse/src",
+                    "C:/Users/Martin/.platformio/packages/framework-arduinoststm32@4.10900.200819/libraries/SrcWrapper/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60105",
+                "STM32F401xx",
+                "__MARLIN_FIRMWARE__",
+                "NDEBUG",
+                "HAL_STM32",
+                "TIM_IRQ_PRIO=13",
+                "ADC_RESOLUTION=12",
+                "STM32F401xC",
+                "STM32F4xx",
+                "ARDUINO=10808",
+                "ARDUINO_ARCH_STM32",
+                "ARDUINO_MARLIN_MKS_F401RC",
+                "BOARD_NAME=\"MARLIN_MKS_F401RC\"",
+                "HAL_UART_MODULE_ENABLED",
+                "HAL_PCD_MODULE_ENABLED",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "compilerPath": "C:/Users/Martin/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mfpu=fpv4-sp-d16",
+                "-mfloat-abi=hard",
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

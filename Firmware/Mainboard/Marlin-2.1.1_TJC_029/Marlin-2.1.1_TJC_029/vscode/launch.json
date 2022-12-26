@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "d:/work/2_Elegoo/8_NETUNE3/Marlin-2.1.1/Marlin-2.1.1_TJC_029/.pio/build/MKS_E3_V2/firmware.elf",
+            "projectEnvName": "MKS_E3_V2",
+            "toolchainBinDir": "C:/Users/Martin/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Martin/.platformio/platforms/ststm32@12.1.1/misc/svd/STM32F40x.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "d:/work/2_Elegoo/8_NETUNE3/Marlin-2.1.1/Marlin-2.1.1_TJC_029/.pio/build/MKS_E3_V2/firmware.elf",
+            "projectEnvName": "MKS_E3_V2",
+            "toolchainBinDir": "C:/Users/Martin/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Martin/.platformio/platforms/ststm32@12.1.1/misc/svd/STM32F40x.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "d:/work/2_Elegoo/8_NETUNE3/Marlin-2.1.1/Marlin-2.1.1_TJC_029/.pio/build/MKS_E3_V2/firmware.elf",
+            "projectEnvName": "MKS_E3_V2",
+            "toolchainBinDir": "C:/Users/Martin/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Martin/.platformio/platforms/ststm32@12.1.1/misc/svd/STM32F40x.svd",
+            "loadMode": "manual"
+        }
+    ]
+}
