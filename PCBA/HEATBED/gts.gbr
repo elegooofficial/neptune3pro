@@ -1,0 +1,16 @@
+G04 CAM350 余光谱工作室汉化QQ:373423087 V9.5.1 (Build 211) Date:  Fri Oct 16 14:13:35 2020 *
+G04 Database: c:\users\mloong\desktop\drawing1.cam *
+G04 Layer 6: gts.gbr *
+%FSLAX25Y25*%
+%MOMM*%
+%SFA1.000B1.000*%
+
+%MIA0B0*%
+%IPPOS*%
+%ADD22R,6.00000X8.00000*%
+%LNgts.gbr*%
+%LPD*%
+G54D22*
+X85677000Y78909000D03*
+X86663000D03*
+M02*
