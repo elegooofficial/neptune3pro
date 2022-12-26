@@ -1,0 +1,32 @@
+{
+  "name": "MarlinSimulator",
+  "keywords": "MarlinSimulator",
+  "description": "Marlin Simulator UI",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/p3p/MarlinSimulator.git"
+  },
+  "version": "0.0.3",
+  "authors":
+  [
+    {
+        "url": null,
+        "maintainer": true,
+        "email": "p3p@p3psoft.co.uk",
+        "name": "Chris Pepper"
+    }
+  ],
+  "dependencies":
+  {
+    "imgui": "https://github.com/p3p/imgui.git#pio_docking",
+    "implot": "https://github.com/p3p/implot.git#pio_master",
+    "vcd-writer": "https://github.com/favorart/vcd-writer.git#28e19a1bfe632535e69787a978ba9d001aee5987"
+  },
+  "build": {
+    "libLDFMode": "deep"
+  },
+  "frameworks": "*",
+  "platforms": "native"
+}
+

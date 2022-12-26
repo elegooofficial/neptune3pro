@@ -1,0 +1,3 @@
+Adafruit NeoPixel=https://github.com/p3p/Adafruit_NeoPixel/archive/marlin_sim_native.zip
+MarlinSimUI=https://github.com/p3p/MarlinSimUI/archive/refs/heads/bugfix-2.0.x.zip
+LiquidCrystal=https://github.com/p3p/LiquidCrystal/archive/master.zip
